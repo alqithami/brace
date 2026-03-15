@@ -1,0 +1,25 @@
+seed: 42
+splits:
+  within:
+    train: 0.70
+    dev: 0.10
+    test: 0.20
+  pheme_dev_from_train: 0.10
+twitter:
+  topk_hubs: 10
+rl:
+  gamma: 0.99
+  ppo_clip: 0.2
+  total_timesteps: 20000
+  max_steps: 15
+  budgets:
+    B: 10.0
+    b: 2.5
+  costs:
+    debunk: 1.0
+    friction: 0.5
+    escalate: 2.0
+  effects:
+    debunk: 0.15
+    friction: 0.08
+    escalate: 0.25
