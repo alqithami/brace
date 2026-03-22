@@ -1,6 +1,5 @@
-# RDIC — Binary Transformer Baseline (LAST REQUIRED GPU/MPS EXPERIMENT)
+# RDIC — Binary Transformer Baseline (GPU/MPS EXPERIMENT)
 
-This README assumes your **Apple Mac M4 Max** environment is already prepared and your RDIC project folder exists (e.g., `~/RDIC`).
 
 ## Purpose
 Run **binary** (rumour vs non-rumour) Transformer experiments so the comparison is **fair** vs:
@@ -365,7 +364,7 @@ ls -lh transformer_binary_metrics_summary.csv transformer_binary_metrics_only.tg
 
 # 6) Send results back (example)
 ```bash
-scp transformer_binary_metrics_summary.csv USER@INTEL_HOST:/Users/fahad/Documents/Research-Projects/RDIC/
+scp transformer_binary_metrics_summary.csv USER@INTEL_HOST:./RDIC/
 ```
 
 ---
