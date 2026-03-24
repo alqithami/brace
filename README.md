@@ -1,4 +1,4 @@
-# RDIC — Binary Transformer Baseline (GPU/MPS EXPERIMENT)
+# Binary Transformer Baseline
 
 
 ## Purpose
