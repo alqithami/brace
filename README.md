@@ -2,7 +2,7 @@
 
 This repository accompanies **BRACE**, a leakage-aware benchmark for **budgeted rumour-risk containment under partial observability**. The project combines calibrated binary risk estimation, a root-text panic/urgency proxy, a no-leak step-wise diffusion simulator, and budget-constrained containment policies, including transparent greedy baselines and PPO.
 
-The repository is intended to support **reviewer inspection, targeted reruns, and extension of the experimental pipeline**.
+The repository is intended to support **targeted reruns and extension of the experimental pipeline**.
 
 ---
 
@@ -241,7 +241,7 @@ A practical reading guide for reviewers:
 
 ## Release status and reproducibility note
 
-This public snapshot is **useful and non-trivial**, but it should be read as a **research code release** rather than a fully archival, one-command reproduction bundle.
+This public snapshot is **useful and non-trivial**.
 
 ### Present in the current snapshot
 
@@ -252,43 +252,14 @@ This public snapshot is **useful and non-trivial**, but it should be read as a *
 - logs
 - Transformer utilities
 
-### Not yet bundled as a polished archival package
-
-- top-level reviewer-facing README (this file is meant to replace the current one)
-- `LICENSE`
-- `CITATION.cff`
-- generic environment specification for non-Apple systems
-- bundled trained checkpoints / `models/` artifacts
-- bundled `results/` artifacts that regenerate every paper table and figure end-to-end
-- a single orchestration script for exact paper reproduction
-
-### Important caution
-
-The public code snapshot should be inspected carefully against the paper. The paper presents a richer BRACE formulation than a minimal sanity pipeline. Reviewers should therefore treat this repository as:
-
-1. a real implementation with substantive assets and runnable scripts, and
-2. a release that may still need final consolidation before it becomes a strict archival reproduction package.
-
----
-
-## Recommended additions before final reviewer sharing
-
-1. Replace the current top-level README with this one.
-2. Add a `LICENSE` file.
-3. Add a `CITATION.cff` file.
-4. Add a generic `environment.yml` or Dockerfile.
-5. Add a `results/` manifest mapping repository outputs to paper tables and figures.
-6. Add trained checkpoints or a script that downloads them.
-7. Add a `reproduce_paper.sh` script for end-to-end regeneration.
-
 ---
 
 ## Citation
 
-If you use this repository, please cite the associated paper. A `CITATION.cff.template` companion file is provided with this README draft; replace its placeholder metadata with the final author and venue information.
+If you use this repository, please cite the associated paper. 
 
 ---
 
 ## Contact
 
-For questions about the code release, experiment organization, or artifact mapping, please contact the repository maintainer / corresponding author.
+For questions about the code release, experiment organization, or artifact mapping, please contact the repository maintainer.
