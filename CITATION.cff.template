@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite both the software artifact and the associated paper."
+title: "BRACE: Budgeted Rumour-Risk Containment with Calibrated Signals and No-Leak Simulation"
+type: software
+authors:
+  - family-names: "REPLACE"
+    given-names: "REPLACE"
+repository-code: "https://github.com/alqithami/brace"
+abstract: >-
+  Research code and processed artifacts for BRACE, a leakage-aware benchmark
+  for budgeted rumour-risk containment under partial observability.
+keywords:
+  - rumour-risk containment
+  - misinformation
+  - calibration
+  - diffusion simulation
+  - reinforcement learning
+license: "REPLACE"
+version: "main"
+preferred-citation:
+  type: article
+  title: "Budgeted Rumour-Risk Containment with Calibrated Signals and No-Leak Simulation"
+  authors:
+    - family-names: "REPLACE"
+      given-names: "REPLACE"
+  journal: "REPLACE"
+  year: 2026
+  doi: "REPLACE"
